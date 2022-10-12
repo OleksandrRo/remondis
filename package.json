@@ -13,13 +13,19 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "axios": "^1.1.2",
+<<<<<<< HEAD
     "formik": "^2.2.9",
+=======
+>>>>>>> eb63a5c379d28d6609694fc4af7b7ebb10243a8b
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+<<<<<<< HEAD
     "redux": "^4.2.0",
+=======
+>>>>>>> eb63a5c379d28d6609694fc4af7b7ebb10243a8b
     "styled-components": "^5.3.6",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4",
@@ -48,5 +54,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
-}
+  },
+  
+    "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+    "assets/*": ["./assets/*"],
+    "pages/*": ["./pages/*"]
+    }
+    },
+    
+    "exclude": ["node_modules"],
+    "include": ["src", "../AboutUsHeader.jsx"]
+    }
+
