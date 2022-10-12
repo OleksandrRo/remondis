@@ -20,7 +20,11 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "ts-node": {
+    "transpileOnly": true
+  },
   "include": [
     "src"
   ]
+ 
 }
