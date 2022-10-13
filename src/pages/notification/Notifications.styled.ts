@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
 
 // Notifications Styled Component
 
@@ -7,10 +7,11 @@ display:flex;
 
 `;
 
-export const NosNotificationsStyled = styled.div`
+export const NotificationItemStyled = styled.div`
 
 `;
 
 export const NotificationButtonStyled = styled.button`
 
 `;
+

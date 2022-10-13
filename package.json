@@ -63,6 +63,7 @@
     "../AboutUsHeader.jsx"
   ],
   "devDependencies": {
+    "@types/styled-components": "^5.1.26",
     "ts-node": "^10.9.1"
   }
 }
