@@ -1,12 +1,11 @@
 import { GlobalStyle } from "App.styled";
 import { Routing } from "./routing/Routing";
 
-function App() {
+export const App: React.FC = () => {
   return (
-    <div className="App">
+    <>
       <GlobalStyle />
-    </div>
+      <Routing />
+    </>
   );
-}
-
-export default App;
+};

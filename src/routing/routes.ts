@@ -1,21 +1,20 @@
-import React from "react";
 import { DummyComponent } from "../pages/DummyComponent";
 
-export const locations = {
-  main: "/",
-};
+export enum locations {
+  MAIN = "/",
+}
 
 export interface RouterProps {
-  id: number;
-  path: string;
-  component: React.FC | React.ReactNode;
+  path: locations;
+  component: React.ComponentType;
   name: string;
+  exact: boolean;
 }
 export const routes: RouterProps[] = [
   {
-    id: 1,
-    path: locations.main,
+    path: locations.MAIN,
     component: DummyComponent,
     name: "Main",
+    exact: true,
   },
 ];
