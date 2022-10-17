@@ -1,8 +1,10 @@
 import axios from "axios";
 import { useState } from "react";
-import { NotificationsStyled } from "./Notifications.styled";
+import { NotificationItemStyled, NotificationsStyled } from "./Notifications.styled";
+import { NotificationItem } from "./components/NotificationItem";
 
 export const Notifications = () => {
+
     // const [myData, setMyData] = useState([])
     // const fetchData = async () => {
     //     const response = await axios.get(``);
@@ -10,6 +12,16 @@ export const Notifications = () => {
     // }
 
     return <NotificationsStyled>
+        <NotificationItem />
+
+        <NotificationItem />
+        <NotificationItem />
+        <NotificationItem />
+        <NotificationItem />
+        <NotificationItem />
+        <NotificationItem />
+        <NotificationItem />
+        <NotificationItem />
 
     </NotificationsStyled>
 

@@ -1,12 +1,15 @@
 
-import { NotificationItemStyled } from "../Notifications.styled";
-import { NotificationButton } from "./NotificetionButton";
+import { NotificationItemStyled, NotificationItemTextStyled } from "../Notifications.styled";
+import { NotificationButton } from "./NotificationButton";
 
-export const NosNotificationItem = () => {
+export const NotificationItem = () => {
 
-      return <NotificationItemStyled>
-        
-        <NotificationButton />
+  return <>
+    <NotificationItemStyled>
+    <NotificationItemTextStyled> "Some Notification about success or failure <br /> Hi [Manager name], Your appointment on [DATE] at [TIME] is confirmed. View the details here: [LINK]."</NotificationItemTextStyled>
+      <NotificationButton />
     </NotificationItemStyled>
+
+  </>
 
 };

@@ -4,10 +4,11 @@ import styled from "styled-components";
 
 export const HeaderStyled = styled.div`
   display:flex;
+  justify-content:space-between;
   align-items:center;
   margin-bottom:10px;
   margin-top:10px;
-  width:100%;
+  width:99vw;
   height:10vh;
   background: rgba(83, 95, 106)
 `;
@@ -18,15 +19,21 @@ export const LogoStyled = styled.img`
  margin-left:2vw;
 `;
 
-export const StatusButtonStyled = styled.button`
+
+export const ContainerNotificationAndSetting = styled.div`
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  width:5.5vw;
+  margin:2vw;
+ 
+`;
+export const NotificationButtonStyled = styled.button`
  width:1vw;
  height: 1vw;
  border:none;
- border-radius:100%%;
  cursor:pointer;
  position: relative;
- top:0.6vh;
- left: 75vw;
  background: red;
   
 
@@ -40,17 +47,17 @@ export const StatusButtonStyled = styled.button`
   export const NotificationImageStyled = styled.img`
   width:2.2vw;
   height: auto;
-  position: relative;
-  right: 1vw;
-  top: -1.3vh;
+  position:absolute;
+  left: -0.6vw;
+  top: -1vh;
   border-radius: 70%;
+  // transform: translate (-50%, -50%);
   
  
   `;
 
 export const UserSettingIconStyled = styled.img`
- width:40%;
- height:40%;
- position: relative;
- left: 62vw;
-`;
+ width:2.2vw;;
+ height:auto;
+ 
+ `;
