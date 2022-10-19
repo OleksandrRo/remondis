@@ -22,13 +22,13 @@ position: relative;
 `;
 
 export const NotificationItemTextStyled = styled.p`
-margin-left: 1vw;
+margin-left: 2vw;
 `;
 
 export const NotificationButtonStyled = styled.button`
 position: absolute;
-left: 92.4vw;
-top: 0.9vh;
+left: 90vw;
+top: 3vh;
 
 `;
 
